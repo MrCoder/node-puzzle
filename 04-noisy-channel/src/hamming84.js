@@ -1,6 +1,7 @@
 /**
  * Hamming(8,4)
  * Encodes 4 bits into 8 bits.  This method is able to correct 1 bit error, but detect 2 bit errors.
+ * https://github.com/pbrandt1/FEC/blob/master/lib/methods/hamming84.js
  */
 
 /**
