@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --reporter spec --compilers coffee:coffee-script/register"
+    "test": "mocha --watch --compilers coffee:coffee-script/register"
   },
   "keywords": [
     "javascript",
@@ -17,7 +17,7 @@
   "license": "none",
   "dependencies": {
     "coffee-script": "^1.7.0",
-    "expect": "^0.1.1",
+    "expect.js": "^0.1.1",
     "mocha": "^1.21.4",
     "sinon": "^1.10.3"
   }
